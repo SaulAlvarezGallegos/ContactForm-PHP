@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <!-- AnimateCSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet"/>
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/c5a9b13721.js" crossorigin="anonymous"></script>    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+        <div class="content">
+
+            <h1 class="logo">Contact <span>Us</span></h1>
+
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Contact us</h3>
+                    <form action="Enviar.php" method="post" class="form-contact">
+                        <p>
+                            <label for="fullname">Nombre Completo</label>
+                            <input type="text" name="nombre" id="fullname" required>
+                        </p>
+                        <p>
+                            <label>Correo electronico</label>
+                            <input type="email" name="correo" required>
+                        </p>
+                        <p>
+                            <label>Telefono</label>
+                            <input type="tel" id="phone" name="Telefono">
+                        </p>
+                        <p>
+                            <label>Asunto</label>
+                            <input class="text" id="affair" name="asunto" required>
+                        </p>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea id="message" name="mensaje" rows="3" required></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Mas informacion</h4>
+                    <ul>
+                        <li><i class="fas fa-map-pin"></i> Calle Plomeros y 23</li>
+                        <li><i class="fas fa-mobile-alt"></i> 111 111 1111</li>
+                        <li><i class="fas fa-envelope"></i> Maquinados@HAZ.mx.com</li>
+                    </ul>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, provident. Aspernatur ipsum similique consectetur animi, totam earum magni velit quibusdam?</p>
+                    <p>Maquinados HAZ</p>
+                </div>
+            </div>
+
+        </div>        
+</body>
+</html>
